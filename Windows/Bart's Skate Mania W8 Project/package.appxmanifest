@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="65327Damicolo.BartSimpsonSkateMania" Version="1.0.0.1" Publisher="CN=5A1FFCCB-EFDB-4765-90AB-504BA4BBD8CD" />
+  <Properties>
+    <DisplayName>Bart Simpson Skate Mania</DisplayName>
+    <Description>Bart's Skate Mania</Description>
+    <PublisherDisplayName>Damicolo</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Bart Simpson Skate Mania" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Bart's Skate Mania" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Icon_310.png" />
+        <SplashScreen Image="splashscreen.png" BackgroundColor="#FFCC00" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

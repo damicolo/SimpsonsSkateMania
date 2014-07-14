@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<c2addon>
+	<!-- One of: plugin, behavior, effect -->
+	<type>plugin</type>
+	<name>Windows 8 Advertising</name>	
+	<version>1.1</version>
+	<author>Ryan Joy</author>
+	<website>http://ryanjoy.com</website>
+	<documentation>http://ryanjoy.com/2013/05/introducing-a-windows-store-advertising-plugin-for-scirra-construct-2/</documentation>
+	<description>Add Windows 8 advertising to your game.</description>
+</c2addon>

@@ -1,0 +1,42 @@
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bin\Debug\resources.pri
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bin\Debug\AppxManifest.xml
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\priconfig.xml.intermediate
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\layout.resfiles.intermediate
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\resources.resfiles.intermediate
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\pri.resfiles.intermediate
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\priconfig.xml
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\layout.resfiles
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\resources.resfiles
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\pri.resfiles
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\LanguageQualifiers.txt
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bld\Debug\ProjectArchitectures.txt
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bin\Debug\Bart'sSkateMania.build.appxrecipe
+C:\Users\dcolombo\Desktop\temp\Bart's Skate Mania_2\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bin\Debug\resources.pri
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bin\Debug\AppxManifest.xml
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bin\Debug\Bart'sSkateMania.build.appxrecipe
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\priconfig.xml.intermediate
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\layout.resfiles.intermediate
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\resources.resfiles.intermediate
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\pri.resfiles.intermediate
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\priconfig.xml
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\layout.resfiles
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\resources.resfiles
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\pri.resfiles
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\LanguageQualifiers.txt
+C:\Users\dcolombo\Documents\Construct 2\SimpsonsSkateMania\Bart's Skate Mania_2\bld\Debug\ProjectArchitectures.txt
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bin\Debug\resources.pri
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bin\Debug\AppxManifest.xml
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bin\Debug\Bart'sSkateMania.build.appxrecipe
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\priconfig.xml.intermediate
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\layout.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\resources.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\pri.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\priconfig.xml
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\layout.resfiles
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\resources.resfiles
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\pri.resfiles
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\LanguageQualifiers.txt
+C:\Users\dcolombo\Documents\GitHub\SimpsonsSkateMania\Windows\Bart's Skate Mania W8 Project\bld\Debug\ProjectArchitectures.txt

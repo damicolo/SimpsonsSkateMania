@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CompletedEventSheet</name>
+    <events>
+        <event-block sid="777209505607884">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="778819474899797" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="1531938188728347" type="SuperFinalScoreText">
+                    <param id="0" name="Text">&quot;Final Score: &quot; &amp; round( FinalScore)</param>
+                </action>
+                <action id="3" name="Set at XY" sid="9142979461921786" type="LevelsArray">
+                    <param id="0" name="X">SelectedLevel</param>
+                    <param id="1" name="Y">DifficultyLevel</param>
+                    <param id="2" name="Value">max(LevelsArray.At(SelectedLevel,DifficultyLevel),2+BaloonsHit)</param>
+                </action>
+                <action id="3" name="Set at XY" sid="4769123936195595" type="LevelsArray">
+                    <param id="0" name="X">SelectedLevel+1</param>
+                    <param id="1" name="Y">DifficultyLevel</param>
+                    <param id="2" name="Value">max(LevelsArray.At(SelectedLevel+1,DifficultyLevel),1)</param>
+                </action>
+                <action id="0" name="Set local value" sid="7946977180160675" type="WebStorage">
+                    <param id="0" name="Key">DataStoreName</param>
+                    <param id="1" name="Value">LevelsArray.AsJSON</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="6153374114086965">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8978994784759957" type="Touch">
+                    <param id="0" name="Object">CompletedText</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3050257059591495">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6877349009635887" type="System">
+                            <param id="0" name="Variable">FinalScore</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">HighScoresArray.At(2,1)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7147657991877154" type="System">
+                            <param id="0" name="Layout">SaveNameLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2017858247729481">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="636342456564371" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="5374718074179842" type="System">
+                            <param id="0" name="Layout">WelcomeLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4321919347148416">
+            <conditions>
+                <condition id="17" name="On back button" sid="2042351620608662" type="Browser" />
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="7387366099515872" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;------------- Going Back Browser&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9400072677337781" type="System">
+                    <param id="0" name="Layout">WelcomeLayout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

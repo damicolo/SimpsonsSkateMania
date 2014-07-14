@@ -1,0 +1,8 @@
+C:\Users\Henry\Desktop\windows phone plugin capx\MockIAPLib\Bin\Debug\MockIAPLib.dll
+C:\Users\Henry\Desktop\windows phone plugin capx\MockIAPLib\Bin\Debug\MockIAPLib.pdb
+C:\Users\Henry\Desktop\windows phone plugin capx\MockIAPLib\obj\Debug\MockIAPLib.dll
+C:\Users\Henry\Desktop\windows phone plugin capx\MockIAPLib\obj\Debug\MockIAPLib.pdb
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\MockIAPLib\Bin\Debug\MockIAPLib.dll
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\MockIAPLib\Bin\Debug\MockIAPLib.pdb
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\MockIAPLib\obj\Debug\MockIAPLib.dll
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\MockIAPLib\obj\Debug\MockIAPLib.pdb

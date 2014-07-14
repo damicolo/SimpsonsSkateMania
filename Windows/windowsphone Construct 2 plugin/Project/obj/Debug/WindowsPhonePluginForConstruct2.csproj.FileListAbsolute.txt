@@ -1,0 +1,42 @@
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\WindowsPhonePluginForConstruct2.dll
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\WindowsPhonePluginForConstruct2.pdb
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\AppManifest.xaml
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\WindowsPhonePluginForConstruct2_Debug_AnyCPU.xap
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\App.g.cs
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\MainPage.g.cs
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\WindowsPhonePluginForConstruct2.g.resources
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\WindowsPhonePluginForConstruct2.Resources.AppResources.resources
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\WindowsPhonePluginForConstruct2.csproj.GenerateResource.Cache
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\WindowsPhonePluginForConstruct2.dll
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\WindowsPhonePluginForConstruct2.pdb
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\XapCacheFile.xml
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\MockIAPLib.dll
+C:\Users\Henry\Desktop\windows phone plugin capx\Bin\Debug\MockIAPLib.pdb
+C:\Users\Henry\Desktop\windows phone plugin capx\obj\Debug\WindowsPhonePluginForConstruct2.csprojResolveAssemblyReference.cache
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\WindowsPhonePluginForConstruct2.dll
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\WindowsPhonePluginForConstruct2.pdb
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\AppManifest.xaml
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\WindowsPhonePluginForConstruct2_Debug_AnyCPU.xap
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\MockIAPLib.dll
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\Bin\Debug\MockIAPLib.pdb
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\WindowsPhonePluginForConstruct2.csprojResolveAssemblyReference.cache
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\App.g.cs
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\MainPage.g.cs
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\WindowsPhonePluginForConstruct2.g.resources
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\WindowsPhonePluginForConstruct2.Resources.AppResources.resources
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\WindowsPhonePluginForConstruct2.csproj.GenerateResource.Cache
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\WindowsPhonePluginForConstruct2.dll
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\WindowsPhonePluginForConstruct2.pdb
+C:\Users\Henry\Desktop\Windows Phone Plugin\Project\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>WelcomeEventSheet</name>
+    <events>
+        <comment>wp8 iap https://www.scirra.com/tutorials/593/windows-phone-games-with-construct-2/page-1</comment>
+        <variable constant="0" name="product_id" sid="5979232488962097" static="0" type="text">BartSkateLevels</variable>
+        <variable constant="0" name="DifficultyLevel" sid="969466447498343" static="0" type="number">0</variable>
+        <variable constant="0" name="FullVersion" sid="2127806192554196" static="0" type="number">1</variable>
+        <event-group description="" sid="602149463454318" title="Init">
+            <sub-events>
+                <event-block sid="5795342833682668">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="6590282836072061" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6805525891359164">
+                            <conditions>
+                                <condition id="3" name="Local key exists" sid="1586501517115599" type="WebStorage">
+                                    <param id="0" name="Key">HighScoreStoreName</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="11" name="Load" sid="7252310952062501" type="HighScoresArray">
+                                    <param id="0" name="JSON">WebStorage.LocalValue(HighScoreStoreName)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3793057892671746">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="5449120756164327" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="2112956720899999" type="Function">
+                                    <param id="0" name="Name">&quot;SetDefaults&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="1443143606179326">
+            <conditions>
+                <condition id="0" name="On function" sid="4543220867416718" type="Function">
+                    <param id="0" name="Name">&quot;SetDefaults&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set at XY" sid="5538060966136246" type="HighScoresArray">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Bart&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="6555155894746641" type="HighScoresArray">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Homer&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="6746772495969133" type="HighScoresArray">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Lisa&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="8944208452650041" type="HighScoresArray">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">150000</param>
+                </action>
+                <action id="3" name="Set at XY" sid="2458653981681797" type="HighScoresArray">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">75000</param>
+                </action>
+                <action id="3" name="Set at XY" sid="9375169851325813" type="HighScoresArray">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">10000</param>
+                </action>
+                <action id="0" name="Set local value" sid="4467323797652039" type="WebStorage">
+                    <param id="0" name="Key">HighScoreStoreName</param>
+                    <param id="1" name="Value">HighScoresArray.AsJSON</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="233039784990894" title="Level Selection">
+            <sub-events>
+                <event-block any="1" sid="6537561514425338">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="4455115376022702" type="Touch">
+                            <param id="0" name="Object">EasySprite</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="2608428577862713" type="System">
+                            <param id="0" name="Variable">DifficultyLevel</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="507955631324549" type="System">
+                            <param id="0" name="Variable">ChildrenHelp</param>
+                            <param id="1" name="Value">70</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1582894100803819" type="System">
+                            <param id="0" name="Layout">SelectLevelLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="8890424668079933">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="6463520794043077" type="Touch">
+                            <param id="0" name="Object">NormSprite</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="2956179465764989" type="System">
+                            <param id="0" name="Variable">DifficultyLevel</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2548739872471429" type="System">
+                            <param id="0" name="Variable">ChildrenHelp</param>
+                            <param id="1" name="Value">20</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="4095947314863531" type="System">
+                            <param id="0" name="Layout">SelectLevelLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="5953418217743129">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="5036870837591452" type="Touch">
+                            <param id="0" name="Object">HardSprite</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="2555285642581344" type="System">
+                            <param id="0" name="Variable">DifficultyLevel</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="3263046746221951" type="System">
+                            <param id="0" name="Variable">ChildrenHelp</param>
+                            <param id="1" name="Value">-30</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="6653253705708051" type="System">
+                            <param id="0" name="Layout">SelectLevelLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="3069274710362587">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="6956708095625045" type="Touch">
+                            <param id="0" name="Object">HighScoreSprite</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="2761813057178414" type="System">
+                            <param id="0" name="Layout">HighScoresLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="4672322620558539">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8331480327546078" type="Touch">
+                    <param id="0" name="Object">BackArrow</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="4630068704646288" type="Browser" />
+            </actions>
+        </event-block>
+        <event-block sid="9613487604883225">
+            <conditions>
+                <condition id="17" name="On back button" sid="7726639312328388" type="Browser" />
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="9145090717950644" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;------------- Going Back Browser&quot;</param>
+                </action>
+                <action id="1" name="Close" sid="2751385816978433" type="Browser" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
